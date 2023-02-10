@@ -4,9 +4,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-from tensorflow.keras.layers import Input, SimpleRNN, GRU, LSTM, Dense, Flatten
-from tensorflow.keras.models import Model
-from tensorflow.keras.optimizers import SGD, Adam
 
 num_data_points = 1001
 WINDOW_SIZE = 5  # number of lookup rows for predictions. (note it needs to be columns in input data.)
